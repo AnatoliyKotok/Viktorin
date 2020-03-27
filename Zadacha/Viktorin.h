@@ -10,11 +10,13 @@ struct qvestions {
 
 struct viktorin {
 	string name;
-	qvestions*qvestion;
-	int countqvestion;
+	qvestions qvestion[5];
+	
 	
 
 };
 
+void insertViktorin();
 void init();
 void addviktorin();
+int play();
